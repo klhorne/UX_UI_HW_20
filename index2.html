@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberly's Portfolio</title>
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: white;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #7D2647;
+            color: white;
+        }
+
+        /* Navigation Links */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: white;
+        }
+
+        /* Jumbotron Section */
+        .jumbotron {
+            background-color: #FFEDF4;
+            color: #7D2647;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #7D2647;
+            color: white;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background-color: #7D2647;
+            color: white;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="images/logo.png" class="img-fluid small-logo" alt="Kimberly's Logo">
+                    </div>
+                </div>
+                <div class="col-md-8 text-md-right">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Work</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Resume</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Jumbotron Section -->
+    <section class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">GoBuddy</h1>
+            <p class="lead">Explore the world with self-guided audio tours.</p>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Tools</h2>
+                    <p>Figma, Google, Miro, InVision</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Type</h2>
+                    <p>Mobile App, Case Study, Individual Project</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Time</h2>
+                    <p>3 Weeks</p>
+                </div>
+            </div>
+            <img src="GoBuddymockhome.png" alt="GoBuddy Mock Home" class="img-fluid mt-4">
+        </div>
+    </section>
+
+    <!-- Project Details Section -->
+    <section class="container mt-5">
+        <h1>Project Overview</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h5>My Role</h5>
+                <p>I was the sole UX designer working on this mobile app case study project. 
+                    As a part of the requirement, I had to brainstorm common issues travelers face 
+                    in a post-pandemic world via user interviews and come up with a solution within 4 weeks.</p>
+            </div>
+
+            <div class="col-md-12">
+                <h5>What's the problem?</h5>
+                <p>How can I visit a new place and explore new cities, visit cultural attractions, or find hidden gems 
+                    without having to spend a lot of money or interact with a lot of people?</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="container mt-5">
+        <h1>Research</h1>
+        <!-- Goals & Objectives -->
+        <h5>Goals & Objectives</h5>
+        <p>To develop an app that allows travelers to enjoy and learn about popular tourist attractions of any nature—natural sites, historical, cultural, political, and more—without having to deal with the anxiety of group tours or having to use devices that others have touched in our post-pandemic world.</p>
+        <!-- Research Questions -->
+    <h5>Research Questions</h5>
+        <ul>
+            <li>What can we do to make planning activities when traveling easier?</li>
+            <li>How can we promote cultural and historical learning when traveling?</li>
+            <li>What do users enjoy doing while traveling/on vacation?</li>
+            <li>What are the pain points of planning activities when traveling?</li>
+            <li>How do users feel about taking tours both self-guided and in-person?</li>
+        </ul>
+        <!-- Quantitative & Qualitative Discoveries -->
+
+
+        <h5>Quantitative & Qualitative Discoveries</h5>
+
+        <strong>Key User Interview Insights</strong>
+    <ul>
+        <li>Creating memorable experiences are important</li>
+        <li>Tools play a big role in the planning process.</li>
+        <li>Users want options when it comes to touring new places.</li>
+        <li>Users want to find the hidden gems when visiting a place.</li>
+    </ul>
+    <style>
+        .percentage-card {
+            width: 18rem;
+            background-color: #DDDFF2;
+            border: 2px solid #80B918;
+            text-align: center;
+            padding: 10px;
+        }
+    
+        .percentage {
+            font-size: 24px;
+            color: #7D2647;
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card percentage-card">
+                <div class="percentage">58.8%</div>
+                <p>of respondents expressed planning travel plans were somewhat stressful.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card percentage-card">
+                <div class="percentage">47.1%</div>
+                <p>of respondents expressed they would take an on-site self-guided tour with audio, video, or written assistance.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card percentage-card">
+                <div class="percentage">41%</div>
+                <p>of respondents expressed they are not likely to take an in-person group tour when visiting a designation.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+        <!-- Competitor Analysis -->
+        <h5>Competitor Analysis</h5>
+        <p>GoBuddy has both direct and indirect competitors. There are many big names among them, including TripAdvisor, Airbnb Experiences, VoiceMap, and Wanderlog. A number of these apps allow travelers to book transportation, lodging, and experiences all at once. VoiceMap, in particular, offers self-guided audio tours. In spite of this, it lacks a user-friendly interface and does not offer group or private tours. There are a number of services offered by the other three competitors which can be overwhelming. In order to differentiate itself, GoBuddy specializes in creating experiences through tours but give users what they want when it comes to finding a variety of activities to partake in. This analysis helped me understand the market and how this product can succeed.</p>
+    </section>
+
+    <!-- Define & Ideate Section -->
+    <section class="container mt-5">
+        <h1>Define & Ideate</h1>
+
+        <h5>Persona: Meet Cassie</h5>
+        <p> A user persona was created based on the behavioral traits identified in my empathy map. 
+            Throughout the development process, it is essential to maintain a connection with the product user. 
+            Considering Cassie's pain points and goals, I focused on creating an application that allows her to discover new places at her own pace. 
+            I also included options to make connections when she's feeling social.
+        </p>
+   
+        <h5>Feature Prioritization</h5>
+        <p>Based on the user interviews and survey, I analyzed what features are top priority. I determined that users need the ability to:</p>
+        <ul>
+            <li>Find activities based on location and preference</li>
+            <li>Access curated travel content</li>
+            <li>Book a private tour guide</li>
+            <li>Organize activities to make planning easier</li>
+            <li>Purchase tours within the app</li>
+        </ul>
+    
+        <h5>User Flow</h5>
+        <p>After gaining a clear understanding of Cassie’s path, I focused on mapping out her happy path in a user flow.</p>
+    </section>
+
+
+<!-- User Testing Section -->
+<section class="container mt-5">
+    <h1> User Testing</h1>
+    <p>I created a clickable prototype in InVision based on my sketches for testing. This was my first time using the tool, and it allowed me to get familiar with the design tool. 
+        I eventually created a mid-fidelity porotype in Figma, and I was able to conduct five user tests. During the user test, users had to complete onboarding, use the search features to find and save a tour in London, then find a nightlife tour and book it. I then made iterations based on critical issues discovered during testing. </p>
+    <h5>Feature Change</h5>
+    <p>
+        In the first iteration, the option to create an account needs to be bigger and easier to see. I assumed users would want to sign in with their social networks, so I made this option smaller. Based on feedback, I added a Create Account button. I also added more social login options per their feedback.
+    </p>
+    <p>
+        To enhance the search feature, I added trip details such as itinerary, price range, and the number of guests. Additionally, I discovered that I included too many filter options. As a result, I reorganized, retested, and narrowed down the filters.
+    </p>
+    </section>
+
+
+    <section class="container mt-5">
+        <h1> Conclusion</h1>
+            <p>
+        Final Thoughts: This project taught me a lot about Design Thinking. During my journey, I learned how important it is to ask many "whys." In addition, I learned to refrain from making assumptions based on how I think users will interact with something rather than getting proof. I thought users would want an app focusing on producing quality self-guided tours, but after analyzing the data, I realized people like options - there is no one-size-fits-all answer.
+    </p>
+
+    <p>
+        For future iterations, I would like to explore how users can use the app to make travel itineraries. I would have also liked to dive deeper into creating high-fidelity mockups and explore branding and visual design for the app.
+    </p>
+</section>
+
+
+<!-- Contact Section -->
+<section class="container mt-5 contact-section">
+    <h2>Contact</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Interested in collaborating? Let's connect!</h3>
+            <p><strong>Reach out via email at <a href="mailto:khorne5@gmail.com">khorne5@gmail.com</a></strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-section social">
+                    <h3>Social Media</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.instagram.com/kimberlysbooklist/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/kimberlyhorne/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-section links">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-section thank-you text-center">
+                    <h2>Thank you for visiting!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JavaScript (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
