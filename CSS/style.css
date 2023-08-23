@@ -1,476 +1,147 @@
-html {
-font-family: Arial, Helvetica, sans-serif;
+/* Your custom CSS rules go here */
 
+/* Header Styles */
+.bg-primary {
+    background-color: #7D2647 !important;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.navbar {
+    background-color: transparent !important;
 }
 
-.inline-block{
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* Navigation style codes */
-
-header {
-    background-color: #7D2647;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav {
-    width: 23%;
-    padding: 1%;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
+.navbar-nav .nav-link {
+    color: white !important;
     font-size: 24px;
+    margin-right: 20px;
 }
 
-ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
+.navbar-toggler-icon {
+    background-color: white;
 }
 
-li {
-    margin: 0 10px;
-}
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
+/* Logo Styles */
 .logo img {
     max-height: 100px;
 }
 
-/*hero section code*/
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
-    align-items: flex-start;
-    background-color: #7D2647; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Main Content Styles */
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.content {
-    width: 950px;
-    margin: 0 auto;
-    font-size: 48px;
-    text-align: left;
-    color: white; 
+h1 {
+    font-size: 36px;
 }
 
-/* Work sections */
-.mywork1, /*impacts center alignment*/
-.mywork2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+h2 {
+    font-size: 30px;
 }
 
-.work-container { /*impacts shape*/
-    display: flex;
-    width: 100%;
-    padding: 20px;
-    margin: 40px 0;
-}
-
-.work-container.Go-background { /*gobuddy design background*/
-    background-color: #F6F6F6; 
-    max-width: 80%;
-    font-size: 34px;
-}
-
-.work-container.NDLB-background { /*NDLB design background*/
-    background-color: #F6F6F6; 
-    max-width: 80%;
-  
-}
-
-.work-text {
-    flex: 1;
-    padding: 20px;
-    text-align:left;
-    padding: 10%; 
-    font-size: 34px;
-
-}
-
-.work-image {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.work-image img {
-    height: 400px; 
-    margin-right: 20px;
-}
-
-.work-text h1 {
-    margin-top: 0;
-}
-
-.contentcontianer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-     flex-direction:column;
-}
-
-/*  Button Styling */
-.button {
-    display: inline-block;
-    padding: 25px 25px;
-    background-color: #80B918;
-    color: black;
-    border: none;
-    border-radius: 5px;
+h3 {
     font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #7D2647 !important;
     color: white;
-    text
-}
-
-.button:hover {
-    background-color:  green;
-    transform: scale(1.1);
-
-}
-
-.button:active {
-    background-color:#E5DCD5;
-    transform: scale (1.1);
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh; 
-padding-bottom: 10px;}
-
-
-  /*about me overview*/
-
-  .aboutoverview {
-    height: auto;
-    padding: 25px;
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFEDF4 ;
-    
-}
-
-.contentabout {
-    width: auto;
-    margin: 0 auto;
-    font-size: 24px;
-    text-align: left; 
-    color: black;
-}
-
-
-.abouttext{
-    color: black;
-}
-  
-  .letsgetpersonal{
     text-align: center;
-    font-size: 34px; 
-  }
-  
-  .photo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .photo {
-    width: 30%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-
-  .photo-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 50px;
-  }
-  
-  .photo {
-    width: 30%;
-    max-width: 300px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  .text-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-    padding-bottom: 75px;
-        
-  }
-  
-   .text-box1 {
-    width: 20%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #FFEDF4;
-  }
-
-  .text-box2 {
-    width: 20%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #FFEDF4;
-  }
-
- .text-box3 {
-    width: 20%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #FFEDF4;
-  }
-
-/*Resume new section*/ 
-.resumehighlighttext{
-    text-align: center;
-    font-size: 34px; 
-  }
- 
-
-
-  .resume-container {
-    display:flex;
-    flex-direction: column;
-    max-width: 200vh;
-    padding: 10pt;
-    margin-left: 150px;
-    margin-right: 150px; }
-  
-   /* .resume-container2 {
-        display:flex;
-        flex-direction: column;
-        width: 171vh;
-        padding: 10pt;
-        margin-left: -10px;}*/
-
-
-  .resume-item {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    border: 1px solid #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-    margin-bottom: 30px; 
-    background-color: #F6F6F6;
-    color: black;
-  }
-  
-  .resume-item:hover {
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  .resume-item .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #FFEDF4;
-    display: none;
-    flex-direction: column;
-    padding: 10px;
-    box-sizing: border-box;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-  }
-  
-  .resume-item:hover .overlay {
-    display: flex;
-    opacity: 1;
-  }
-  
-  .resume-item p {
-    text-align: left;
-    margin: 5px 0;
-    display: none;
-  }
-  
-  .resume-item:hover p {
-    display: block;
-  }
-  
-  
-  /*contact info*/
-  .contact {
-    height: 200px;
-    padding: 55px;
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #7D2647;
-    color: white;
+    padding: 50px 0;
 }
 
 .contact h1, .contact p {
-    font-size: 34px;
-    text-align: center;
+    font-size: 30px;
 }
 
-
-/* Footer */
-footer {
-    text-align: center;
-    background-color: #f9f9f9;
-    padding: 20px;
-    width: 100%;
+/* Footer Styles */
+.bg-light {
+    background-color: #f9f9f9 !important;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;
-    flex-direction: row-reverse;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .footer h2 {
     font-size: 24px;
-    margin-bottom: 5px; 
+    margin-bottom: 20px;
 }
 
 .footer p {
-    margin-bottom: 5px; 
-}
-
-.footer-section {
-    flex: 1;
-    margin: 10px;
-}
-
-.footer-section h3 {
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
-.footer-section ul {
+.footer-section.social ul, .footer-section.links ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-section li {
-    margin-bottom: 5px; 
+.footer-section.social ul li, .footer-section.links ul li {
+    margin-bottom: 10px;
 }
 
-.footer-section.social ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-section.links ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-section.thank-you {
-    display: flex;
-    flex-direction: column ;
-    align-items: flex-start;
-}
-
-
-  /*mobile media query*/
-
+/* Mobile Styles */
 @media (max-width: 768px) {
-    header {
-        padding: 5px; 
+    /* Header Styles */
+    .navbar {
+        padding: 5px !important;
     }
 
-    nav {
-        width: 100%; 
-        justify-content: center; 
-    }
-
-    .logo {
-        width: 100%; 
-        text-align: center;
-        margin-bottom: 20px; 
+    .navbar-toggler-icon {
+        background-color: #7D2647;
     }
 
     .logo img {
-        max-height: 80px; 
+        max-height: 80px;
     }
 
-    .heroImg {
-        height: auto; 
+    /* Main Content Styles */
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .content {
-        width: 100%; 
-        font-size: 24px; 
-        text-align: center; 
-        padding: 10px; 
+    h1 {
+        font-size: 24px;
     }
 
-    .work-container {
-        flex-direction: column;
+    h2 {
+        font-size: 20px;
     }
 
-    .work-text {
+    h3 {
         font-size: 18px;
     }
 
-    .box {
-        font-size: 18px;
+    p {
+        font-size: 16px;
     }
 
-    .aboutmebox {
-        font-size: 18px;
+    /* Contact Section Styles */
+    .contact {
+        padding: 20px 0;
     }
 
-    .footer h2,
+    .contact h1, .contact p {
+        font-size: 24px;
+    }
+
+    /* Footer Styles */
+    .footer h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
     .footer p {
-        font-size: 18px;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 }
-
-
-
+.jumbotron-fluid 
