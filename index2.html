@@ -90,30 +90,46 @@
     <!-- Jumbotron Section -->
     <section class="jumbotron">
         <div class="container">
-            <h1 class="display-4">GoBuddy</h1>
-            <p class="lead">Explore the world with self-guided audio tours.</p>
-            <hr class="my-4">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Tools</h2>
-                    <p>Figma, Google, Miro, InVision</p>
+                <div class="col-md-8">
+                    <h1 class="display-4">GoBuddy</h1>
+                    <p class="lead">Explore the world with self-guided audio tours.</p>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Tools</h2>
+                            <p>Figma, Google, Miro, InVision</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Type</h2>
+                            <p>Mobile App, Case Study, Individual Project</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Time</h2>
+                            <p>3 Weeks</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <h2>Type</h2>
-                    <p>Mobile App, Case Study, Individual Project</p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Time</h2>
-                    <p>3 Weeks</p>
+                    <img src="images/GoBuddymockhome.png" style="width: 100%; max-height: 600px;" class="img-fluid" alt="GoBuddy Mockup">
                 </div>
             </div>
-            <img src="GoBuddymockhome.png" alt="GoBuddy Mock Home" class="img-fluid mt-4">
         </div>
     </section>
+    
+    
+    <div class="list-group-item">
+        <a href="#project-overview" class="list-group-item list-group-item-action">Project Overview</a>
+        <a href="#research" class="list-group-item list-group-item-action">Research</a>
+        <a href="#define-ideate" class="list-group-item list-group-item-action">Define & Ideate</a>
+        <a href="#user-testing" class="list-group-item list-group-item-action">User Testing & Design</a>
+        <a href="#conclusion" class="list-group-item list-group-item-action">Conclusion</a>
+      </div>
+      
 
     <!-- Project Details Section -->
     <section class="container mt-5">
-        <h1>Project Overview</h1>
+        <h1 id="project-overview">Project Overview</h1>
         <div class="row">
             <div class="col-md-12">
                 <h5>My Role</h5>
@@ -131,9 +147,11 @@
         </div>
     </section>
 
+    
+
     <!-- Research Section -->
     <section class="container mt-5">
-        <h1>Research</h1>
+        <h1 id="research">Research</h1>
         <!-- Goals & Objectives -->
         <h5>Goals & Objectives</h5>
         <p>To develop an app that allows travelers to enjoy and learn about popular tourist attractions of any nature—natural sites, historical, cultural, political, and more—without having to deal with the anxiety of group tours or having to use devices that others have touched in our post-pandemic world.</p>
@@ -194,9 +212,36 @@
             </div>
         </div>
     </div>
+
+    &nbsp;
+    &nbsp;
     
+    <!-- Modal for Image Expansion -->
+    <section> <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" class="img-fluid modal-image" alt="Expanded Image">
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <!-- Images with Click Event -->
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/affinitydiagram.png" class="img-fluid expandable-image" alt="Image 1">
+        </div>
+        <div class="col-md-6">
+            <img src="images/empathymap.png" class="img-fluid expandable-image" alt="Image 2">
+        </div>
+    </div>
     
+   
+    
+</section>
+    
+    &nbsp;
     
         <!-- Competitor Analysis -->
         <h5>Competitor Analysis</h5>
@@ -205,7 +250,7 @@
 
     <!-- Define & Ideate Section -->
     <section class="container mt-5">
-        <h1>Define & Ideate</h1>
+        <h1 id="define-ideate">Define & Ideate</h1>
 
         <h5>Persona: Meet Cassie</h5>
         <p> A user persona was created based on the behavioral traits identified in my empathy map. 
@@ -213,7 +258,18 @@
             Considering Cassie's pain points and goals, I focused on creating an application that allows her to discover new places at her own pace. 
             I also included options to make connections when she's feeling social.
         </p>
-   
+        <img src="images/persona.png" class="img-fluid expandable-image" alt="Image 1">
+
+        <h5>User Journey & Storyboard</h5>
+        <p> I  mapped out the Cassie’s journey via a storyboard. 
+            This allowed me to visualize her life and what interactions 
+            she will experience using GoBuddy. 
+        </p>
+        <img src="images/storyboard.png" class="img-fluid expandable-image" alt="Image 1">
+
+        <img src="images/journeymap.png" class="img-fluid expandable-image" alt="Image 1">
+
+        <section class="container mt-5">
         <h5>Feature Prioritization</h5>
         <p>Based on the user interviews and survey, I analyzed what features are top priority. I determined that users need the ability to:</p>
         <ul>
@@ -223,49 +279,106 @@
             <li>Organize activities to make planning easier</li>
             <li>Purchase tours within the app</li>
         </ul>
-    
-        <h5>User Flow</h5>
-        <p>After gaining a clear understanding of Cassie’s path, I focused on mapping out her happy path in a user flow.</p>
+        <img src="images/featurepriotrization.png" class="img-fluid expandable-image" alt="Image 1">
+</section>
+
+        <section class="container mt-5">
+       <div> <h5>User Flow</h5>
+        <p>After gaining a clear understanding of Cassie’s path, I focused on mapping out her happy path. After I was able to dig deeper into the process and created a second iteration of the user flow mpa.</p>
+        <p>User Flow Iteration 1 </p>
+        <img src="images/userflow1.png" class="img-fluid expandable-image" alt="Image 1">
+        <p>User Flow Iteration 2 </p>
+        <img src="images/userflow2.png" class="img-fluid expandable-image" alt="Image 1">
+    </div>
     </section>
 
 
-<!-- User Testing Section -->
+<!-- User Testing & Design Section -->
 <section class="container mt-5">
-    <h1> User Testing</h1>
+    <h1 id="user-testing" >User Testing & Design </h1>
+
+    <section class="container mt-5">
+
+        <h5>Wireframes</h5>
+        <p> Based on the information above, I moved straight into wireframes. 
+            Wireframes were built for three processes: Onboarding, Searching & Filtering, and booking a tour. 
+            Decisions were made based on user interviews and expressions of likes, wishes, wants, and needs.
+             I also took into account industry-standard design aspects. 
+        </p>
+    
+        <p> For example, I included social logins, adding filtering options that focus on activities fit for different personalities and not just booking or buying tours.
+             I also developed a feature where users can link to Google Maps when taking self-guided tours to avoid getting lost, which was mentioned several times as a potential stressor.
+             It also allows breeds familiarity and trust because it is a tool most users were familiar with and mentioned during interviews. 
+        </p>
+        <section> 
+        <img src="images/wireframeslow.png" class="img-fluid expandable-image" alt="Image 1"></section>
+    </section>
+    
+
+<section class="container mt-5">
+
     <p>I created a clickable prototype in InVision based on my sketches for testing. This was my first time using the tool, and it allowed me to get familiar with the design tool. 
         I eventually created a mid-fidelity porotype in Figma, and I was able to conduct five user tests. During the user test, users had to complete onboarding, use the search features to find and save a tour in London, then find a nightlife tour and book it. I then made iterations based on critical issues discovered during testing. </p>
-    <h5>Feature Change</h5>
+    </section>
+
+    <section class="container mt-5">
+        <h5>Feature Change</h5>
     <p>
         In the first iteration, the option to create an account needs to be bigger and easier to see. I assumed users would want to sign in with their social networks, so I made this option smaller. Based on feedback, I added a Create Account button. I also added more social login options per their feedback.
     </p>
-    <p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/I1mobile.png" class="img-fluid expandable-image" alt="Image 1">
+        </div>
+        <div class="col-md-6">
+            <img src="images/I2signin.png" class="img-fluid expandable-image" alt="Image 2">
+        </div>
+    </div>
+   
+
+</div>
+  </section>
+
+  <section class="container mt-5">
+      <p>
         To enhance the search feature, I added trip details such as itinerary, price range, and the number of guests. Additionally, I discovered that I included too many filter options. As a result, I reorganized, retested, and narrowed down the filters.
     </p>
-    </section>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/I1search.png" class="img-fluid expandable-image" alt="Image 1">
+        </div>
+        <div class="col-md-6">
+            <img src="images/i2search1.png" class="img-fluid expandable-image" alt="Image 2">
+        </div>
+        <div class="col-md-6">
+            <img src="images/i2search2.png" class="img-fluid expandable-image" alt="Image 2">
+        </div>
+   
+    </div>
+
+    <section class="container mt-5">
+            <h5>Prototype</h5>
+            <img src="images/persona.png" class="img-fluid expandable-image" alt="Image 1">
+
+
+
+
+
+
 
 
     <section class="container mt-5">
-        <h1> Conclusion</h1>
+        <h1 id="conclusion" > Conclusion</h1>
             <p>
         Final Thoughts: This project taught me a lot about Design Thinking. During my journey, I learned how important it is to ask many "whys." In addition, I learned to refrain from making assumptions based on how I think users will interact with something rather than getting proof. I thought users would want an app focusing on producing quality self-guided tours, but after analyzing the data, I realized people like options - there is no one-size-fits-all answer.
     </p>
 
-    <p>
-        For future iterations, I would like to explore how users can use the app to make travel itineraries. I would have also liked to dive deeper into creating high-fidelity mockups and explore branding and visual design for the app.
-    </p>
 </section>
 
 
-<!-- Contact Section -->
-<section class="container mt-5 contact-section">
-    <h2>Contact</h2>
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Interested in collaborating? Let's connect!</h3>
-            <p><strong>Reach out via email at <a href="mailto:khorne5@gmail.com">khorne5@gmail.com</a></strong></p>
-        </div>
-    </div>
-</section>
+
+
 
 <!-- Footer Section -->
 <footer>
@@ -298,10 +411,35 @@
         </div>
     </div>
 </footer>
+<style>
+    /* Footer Section */
+    footer {
+        background-color: #7D2647;
+        color: white;
+        padding-top: 20px;
+    }
 
+    /* Footer Links */
+    .footer-section a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    
+    }
+
+    /* Change link color on hover or when clicked */
+    .footer-section a:hover,
+    .footer-section a:focus {
+        color: #80B918; 
+    }
+</style>
 <!-- Bootstrap JavaScript (optional) -->
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<script src="js/index.js"></script>
+
+
 </html>

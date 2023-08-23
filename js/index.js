@@ -27,4 +27,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-
+ <!-- JavaScript for Image Expansion -->
+    <script>
+        $(document).ready(function() {
+            // Handle image click event to open modal
+            $(".expandable-image").click(function() {
+                const imageUrl = $(this).attr("src");
+                $(".modal-image").attr("src", imageUrl);
+                $("#imageModal").modal("show");
+            });
+        });
+    </script>
